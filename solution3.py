@@ -1,4 +1,4 @@
 try:
     n=int(input())
-except:
-    print("Exception Occured")
+except Exception as e:
+    print("Exception Occured",e,type(e).__name__)
